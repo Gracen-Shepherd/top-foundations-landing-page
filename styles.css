@@ -1,104 +1,167 @@
 :root {
-  font-family: Roboto, sans-serif;
+    font-family: Roboto, sans-serif;
 }
 
 body {
-  margin: 0;
+    margin: 0;
 }
 
 
 .intro-section {
-  padding: 20px 15%;
-  background-color: #1F2937;
+    padding: 20px 15%;
+    background-color: #1F2937;
 }
 
 nav {
-  display: flex;
-  justify-content: space-evenly;
-  gap: 24px;
-  margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 24px;
+    margin-bottom: 20px;
 }
 
 .home-link {
-  text-align: center;
-  flex: 0 0 auto;
-  margin-right: auto;
-  font-size: 24px;
-  color: #F9FAF8;
+    text-align: center;
+    flex: 0 0 auto;
+    margin-right: auto;
+    font-size: 24px;
+    color: #F9FAF8;
 }
+
 .header-link {
-  text-align: center;
-  flex: 0 0 auto;
-  font-size: 18px;
-  color: #E5E7EB;
+    text-align: center;
+    flex: 0 0 auto;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 
 .hero-section {
-  display: flex;
-  gap: 24px;
+    display: flex;
+    gap: 24px;
 }
 
 .hero-text-box {
-  flex: 1;
+    flex: 1;
 }
+
 .hero-image {
-  flex: 1;
-  align-self: stretch;
-  background-color: grey;
-  margin: 20px 0 20px 20px;
-  display: flex;
+    flex: 1;
+    align-self: stretch;
+    border-radius: 10px;
+    background-color: grey;
+    margin: 20px 0 20px 20px;
+    display: flex;
 }
-.hero-image > p {
-  text-align: center;
-  margin: auto;
-  color: #E5E7EB;
+
+.hero-image>p {
+    text-align: center;
+    margin: auto;
+    color: #E5E7EB;
 }
 
 .hero-text {
-  font-size: 48px;
-  color: #F9FAF8;
+    font-size: 48px;
+    color: #F9FAF8;
 }
+
 .hero-subtext {
-  font-size: 18px;
-  color: #E5E7EB;
+    font-size: 18px;
+    color: #E5E7EB;
 }
+
 .signup {
-  color: #F9FAF8;
-  background-color: #3882F6;
-  font-weight: 500;
-  border: 0;
-  padding: 10px 50px;
-  border-radius: 5px;
-  margin-bottom: 20px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    font-weight: 500;
+    border: 0;
+    padding: 10px 50px;
+    border-radius: 5px;
+    margin-bottom: 20px;
 }
 
 .portrait-header {
-  margin: 40px;
-  text-align: center;
-  font-size: 36px;
-  color: #1F2937;
-  font-weight: 900;
+    margin: 40px;
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
 }
 
 .portrait-row {
-  margin: 40px;
-  display: flex;
-  gap: 24px;
-  justify-content: center;
+    margin: 40px;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
 }
 
 .portrait {
-  width: 220px;
-  flex: 0 0 auto;
+    width: 220px;
+    flex: 0 0 auto;
 }
+
 .portrait-box {
-  height: 200px;
-  width: 200px;
-  border-radius: 16px;
-  border: 4px solid #3882F6;
+    height: 200px;
+    width: 200px;
+    border-radius: 16px;
+    border: 4px solid #3882F6;
 }
- 
+
 .portrait-caption {
-  color: #1F2937;
+    color: #1F2937;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 100px 500px;
+}
+
+.quote {
+    font-style: italic;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.quote-attribution {
+    text-align: right;
+    color: #1F2937;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.cta-section {
+    padding: 70px 300px;
+}
+
+.cta-card {
+    background-color: #3882F6;
+    display: flex;
+    padding: 50px 100px;
+    border-radius: 20px;
+    color: #F9FAF8;
+}
+
+.cta-text {
+    margin-right: auto;
+}
+
+.cta-heading {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.cta-body {
+    margin-top: 0;
+}
+
+.cta-button {
+    color: #F9FAF8;
+    font-weight: 700;
+    font-size: 15px;
+    background-color: #3882F6;
+    align-self: center;
+    padding: 10px 50px;
+    border: #F9FAF8 solid 2px;
+    border-radius: 10px;
 }
